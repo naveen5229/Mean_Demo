@@ -1,7 +1,6 @@
 const http = require('http'),
 _PORT_ = process.env.PORT || 8000,
 mongoose = require('mongoose');
-// MONGO_URL = `mongodb+srv://navdarsh:Navdarsh123@warehouseclutser.fhxqyhp.mongodb.net/?retryWrites=true&w=majority`;
 APP = require('./app');
 
 const server = http.createServer(APP);
